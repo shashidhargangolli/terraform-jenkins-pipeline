@@ -19,13 +19,13 @@ variable "aws_region" {
 variable "ami" {
   type        = string
   description = "Ubuntu AMI ID"
-  default     = "ami-0f5ee92e2d63afc18"   # ✅ Ubuntu 22.04 LTS for ap-south-1
+  default     = "ami-07f07a6e1060cd2a8"   # ✅ Ubuntu 22.04 LTS for ap-south-1
 }
 
 variable "instance_type" {
   type        = string
   description = "Instance type"
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
 variable "name_tag" {
